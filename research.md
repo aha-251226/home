@@ -65,8 +65,6 @@ layout: default
   <a href="./education.html" class="tab-link">Education</a>
 </div>
 
-# Research Projects
-
 <div class="content-item">
   <h3>Digital Twin-Based Semantic Interoperability Technology for Process Plants</h3>
   <p><em>KAIA (RS-2024-00407028)</em> | 870M KRW</p>

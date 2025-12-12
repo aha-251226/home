@@ -28,6 +28,153 @@ layout: default
   color: #0366d6;
   border-bottom-color: #0366d6;
 }
+
+/* 필터 섹션 - 크기 축소 */
+.filter-section {
+  margin: 15px 0;
+  padding: 12px 15px;
+  background: #f6f8fa;
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+
+/* 필터 그룹 - 간격 축소 */
+.filter-group {
+  margin: 8px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.filter-group:last-child {
+  border-bottom: none;
+}
+
+.filter-group:first-child {
+  border-bottom: 2px solid #d1d5da;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.filter-group-title {
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #24292e;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tag-btn {
+  padding: 3px 9px;
+  margin: 2px;
+  border: 1px solid #d1d5da;
+  background: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.8em;
+  transition: all 0.2s;
+}
+
+.tag-btn:hover {
+  background: #f6f8fa;
+  border-color: #0366d6;
+}
+
+.tag-btn.active { 
+  background: #0366d6; 
+  color: white; 
+  border-color: #0366d6;
+}
+
+/* 논문 아이템 */
+.pub-item { 
+  margin: 25px 0; 
+  padding: 20px 0; 
+  border-bottom: 1px solid #eaecef;
+  transition: opacity 0.3s;
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-item h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.pub-tags { 
+  margin: 10px 0; 
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 3px 5px 3px 0;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+/* Target 태그 색상 (파란 계열) */
+.tag-Building { background: #e3f2fd; color: #1565c0; }
+.tag-Road { background: #e1f5fe; color: #0277bd; }
+.tag-Bridge { background: #e0f2f1; color: #00695c; }
+.tag-Plant { background: #e8eaf6; color: #3949ab; }
+
+/* Purpose 태그 색상 (주황/빨강 계열) */
+.tag-Fire { background: #ffebee; color: #c62828; }
+.tag-Safety { background: #fff3e0; color: #e65100; }
+.tag-Automation { background: #fce4ec; color: #c2185b; }
+.tag-Information { background: #f3e5f5; color: #7b1fa2; }
+.tag-Education { background: #ede7f6; color: #512da8; }
+
+/* Method 태그 색상 (녹색/보라 계열) */
+.tag-BIM { background: #e8f5e9; color: #2e7d32; }
+.tag-SNA { background: #f1f8e9; color: #558b2f; }
+.tag-AI { background: #fff9c4; color: #f57f17; }
+.tag-LLM { background: #f3e5f5; color: #6a1b9a; }
+.tag-LMM { background: #ede7f6; color: #4527a0; }
+.tag-Simulation { background: #e0f7fa; color: #00838f; }
+.tag-Ontology { background: #e0f2f1; color: #00695c; }
+.tag-Blockchain { background: #e3f2fd; color: #0d47a1; }
+
+/* Type & Language 태그 색상 */
+.tag-type { background: #eceff1; color: #37474f; }
+.tag-lang { background: #fff8e1; color: #f57f17; }
+
+.pub-item p {
+  margin: 8px 0;
+  color: #586069;
+  font-size: 0.95em;
+}
+
+.pub-item a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.pub-item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .tag-btn {
+    font-size: 0.75em;
+    padding: 3px 8px;
+  }
+  
+  .filter-group-title {
+    font-size: 0.7em;
+  }
+  
+  .filter-section {
+    padding: 10px;
+  }
+}
 </style>
 
 <div class="page-tabs">
@@ -171,7 +318,8 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
   </div>
 
   <div class="pub-item" data-tags="BIM" data-type="Proceeding" data-lang="EN">
-    <h3>Filling in Missing Material Layer Information for Generating Wall and Slab Object Libraies from Drawing <div class="pub-tags">
+    <h3>Filling in Missing Material Layer Information for Generating Wall and Slab Object Libraies from Drawing</h3>
+    <div class="pub-tags">
       <span class="tag tag-BIM">BIM</span>
       <span class="tag tag-type">Proceeding</span>
       <span class="tag tag-lang">EN</span>
@@ -225,7 +373,8 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
   </div>
 
   <div class="pub-item" data-tags="Blockchain" data-type="Proceeding" data-lang="EN">
-    <h3>Enhancing User-Participatory Processes in Road Pavement Defect Management through Blockchain Integration<div class="pub-tags">
+    <h3>Enhancing User-Participatory Processes in Road Pavement Defect Management through Blockchain Integration</h3>
+    <div class="pub-tags">
       <span class="tag tag-Blockchain">Blockchain</span>
       <span class="tag tag-type">Proceeding</span>
       <span class="tag tag-lang">EN</span>
@@ -234,14 +383,14 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
   </div>
 
   <div class="pub-item" data-tags="Road" data-type="Proceeding" data-lang="EN">
-    <h3>Evaluating the Economic Impact of Preventive Treatment Strategies for Municipal Highways<div class="pub-tags">
-      <span class="tag tag-Road">ACC</span>
+    <h3>Evaluating the Economic Impact of Preventive Treatment Strategies for Municipal Highways</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Road">Road</span>
       <span class="tag tag-type">Proceeding</span>
       <span class="tag tag-lang">EN</span>
     </div>
     <p><em>ASCE International Conference on Computing in Civil Engineering 2023 June 25–28, 2023, Corvallis, Oregon, US</em>, 2023</p>
   </div>
-
 
   <div class="pub-item" data-tags="BIM" data-type="Journal" data-lang="EN">
     <h3>Information Requirements for Managing Higher Education Facilities Using Building Information Modeling: Triangular Study of US and Korean Cases</h3>
@@ -253,7 +402,6 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <p><em>Journal of Computing in Civil Engineering</em>, 2021</p>
     <a href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000989" target="_blank">DOI: 10.1061/(ASCE)CP.1943-5487.0000989</a>
   </div>
-
 
   <div class="pub-item" data-tags="BIM,Education" data-type="Journal" data-lang="EN">
     <h3>An Analysis of BIM Jobs and Competencies based on the Use of Terms in the Industry</h3>
@@ -278,19 +426,9 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002084396" target="_blank">DOI: 10.5659/JAIK_SC.2016.32.2.51</a>
   </div>
 
-  <div class="pub-item" data-tags="Information" data-type="Journal" data-lang="KO">
-    <h3>TAM3-based Analysis of the Differences in the Attitude toward FMS between User Groups by Experience in Higher Education Facilities</h3>
-    <div class="pub-tags">
-      <span class="tag tag-Information">Information</span>
-      <span class="tag tag-type">Journal</span>
-      <span class="tag tag-lang">KO</span>
-    </div>
-    <p><em>Journal of the Architectural Institute of Korea Structure & Construction</em>, 2016</p>
-    <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002084396" target="_blank">DOI: 10.5659/JAIK_SC.2016.32.2.51</a>
-  </div>
-
   <div class="pub-item" data-tags="ACC" data-type="Proceeding" data-lang="EN">
-    <h3>Can Experience Overcome the Cognitive Challenges in Drawing Based Design Review? — Design Review Experiments<div class="pub-tags">
+    <h3>Can Experience Overcome the Cognitive Challenges in Drawing Based Design Review? — Design Review Experiments</h3>
+    <div class="pub-tags">
       <span class="tag tag-ACC">ACC</span>
       <span class="tag tag-type">Proceeding</span>
       <span class="tag tag-lang">EN</span>
@@ -326,150 +464,6 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
 **Email:** [aha0810@yonsei.ac.kr](mailto:aha0810@yonsei.ac.kr)  
 **Phone:** +82-10-3193-9558  
 **Affiliation:** Department of Architecture and Architectural Engineering, Yonsei University
-
-<style>
-/* 필터 섹션 */
-.filter-section {
-  margin: 25px 0;
-  padding: 20px;
-  background: #f6f8fa;
-  border-radius: 8px;
-}
-
-/* 필터 그룹 */
-.filter-group {
-  margin: 15px 0;
-  padding: 10px 0;
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.filter-group:last-child {
-  border-bottom: none;
-}
-
-.filter-group:first-child {
-  border-bottom: 2px solid #d1d5da;
-  padding-bottom: 15px;
-  margin-bottom: 20px;
-}
-
-.filter-group-title {
-  font-size: 0.85em;
-  font-weight: 600;
-  color: #24292e;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.tag-btn {
-  padding: 5px 12px;
-  margin: 3px;
-  border: 1px solid #d1d5da;
-  background: white;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 0.85em;
-  transition: all 0.2s;
-}
-
-.tag-btn:hover {
-  background: #f6f8fa;
-  border-color: #0366d6;
-}
-
-.tag-btn.active { 
-  background: #0366d6; 
-  color: white; 
-  border-color: #0366d6;
-}
-
-/* 논문 아이템 */
-.pub-item { 
-  margin: 25px 0; 
-  padding: 20px 0; 
-  border-bottom: 1px solid #eaecef;
-  transition: opacity 0.3s;
-}
-
-.pub-item:last-child {
-  border-bottom: none;
-}
-
-.pub-item h3 {
-  margin: 0 0 12px 0;
-  font-size: 1.1em;
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-.pub-tags { 
-  margin: 10px 0; 
-}
-
-.tag {
-  display: inline-block;
-  padding: 3px 10px;
-  margin: 3px 5px 3px 0;
-  border-radius: 4px;
-  font-size: 0.75em;
-  font-weight: 500;
-}
-
-/* Target 태그 색상 (파란 계열) */
-.tag-Building { background: #e3f2fd; color: #1565c0; }
-.tag-Road { background: #e1f5fe; color: #0277bd; }
-.tag-Bridge { background: #e0f2f1; color: #00695c; }
-.tag-Plant { background: #e8eaf6; color: #3949ab; }
-
-/* Purpose 태그 색상 (주황/빨강 계열) */
-.tag-Fire { background: #ffebee; color: #c62828; }
-.tag-Safety { background: #fff3e0; color: #e65100; }
-.tag-Automation { background: #fce4ec; color: #c2185b; }
-.tag-Information { background: #f3e5f5; color: #7b1fa2; }
-.tag-Education { background: #ede7f6; color: #512da8; }
-
-/* Method 태그 색상 (녹색/보라 계열) */
-.tag-BIM { background: #e8f5e9; color: #2e7d32; }
-.tag-SNA { background: #f1f8e9; color: #558b2f; }
-.tag-AI { background: #fff9c4; color: #f57f17; }
-.tag-LLM { background: #f3e5f5; color: #6a1b9a; }
-.tag-LMM { background: #ede7f6; color: #4527a0; }
-.tag-Simulation { background: #e0f7fa; color: #00838f; }
-.tag-Ontology { background: #e0f2f1; color: #00695c; }
-.tag-Blockchain { background: #e3f2fd; color: #0d47a1; }
-
-/* Type & Language 태그 색상 */
-.tag-type { background: #eceff1; color: #37474f; }
-.tag-lang { background: #fff8e1; color: #f57f17; }
-
-.pub-item p {
-  margin: 8px 0;
-  color: #586069;
-  font-size: 0.95em;
-}
-
-.pub-item a {
-  color: #0366d6;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-
-.pub-item a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .tag-btn {
-    font-size: 0.8em;
-    padding: 4px 10px;
-  }
-  
-  .filter-group-title {
-    font-size: 0.8em;
-  }
-}
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

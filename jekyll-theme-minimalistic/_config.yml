@@ -21,3 +21,6 @@ platforms:
 show_downloads: false
 github:
   is_project_page: false
+
+exclude:
+  - jekyll-theme-minimalistic

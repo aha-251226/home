@@ -1,0 +1,23 @@
+title: Miyoung Uhm
+description: Postdoctoral Research Fellow
+email: aha0810@yonsei.ac.kr
+
+favicon: true
+color-scheme: auto
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/aha-251226
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/aha0810/
+
+show_downloads: false
+github:
+  is_project_page: false

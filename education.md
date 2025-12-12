@@ -96,31 +96,26 @@ layout: default
 <div class="content-item">
   <h3>Automated legal violation analysis system for construction accident videos</h3>
   <p>Patent No: 10-2024-0060972 | 2024</p>
-  <p>Miyoung Uhm, Jaehee Kim, Ghang Lee</p>
 </div>
 
 <div class="content-item">
   <h3>Technology to automatically generate modular construction production data from initial sketches</h3>
   <p>Patent No: 10-2024-1815 | 2024</p>
-  <p>Ghang Lee, Suhyung Jang, Hyunsung Roh, Miyoung Uhm</p>
 </div>
 
 <div class="content-item">
   <h3>System for Road Deterioration Simulation and Maintenance Cost Estimation Framework</h3>
   <p>Patent No: 10-2023-0165241 | 2023</p>
-  <p>Miyoung Uhm, Giwon Shin, Hongjo Kim, Hyoungkwan Kim</p>
 </div>
 
 <div class="content-item">
   <h3>Construction Safety Chatbot Service Delivery Communication System</h3>
   <p>Patent No: 10-2023-0172306 | 2023</p>
-  <p>Miyoung Uhm, Jaehee Kim, Hongjo Kim</p>
 </div>
 
 <div class="content-item">
   <h3>System and Method for Converting Ontology-Based Rule Set into BIM Model Checker Rule Set</h3>
   <p>Patent No: 10-1527046 | 2013</p>
-  <p>Ghang Lee, Younghyun Park, Miyoung Uhm, Sanghun Kim, Jungsung Won</p>
 </div>
 
 <h1 class="section-divider">Certifications</h1>
@@ -158,31 +153,31 @@ layout: default
 <h1 class="section-divider">Journal Review Service</h1>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Journal of Management Engineering</h3>
+  <h3>Journal of Management Engineering</h3>
   <p>2024.10 - Present</p>
 </div>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Results in Engineer</h3>
+  <h3>Results in Engineer</h3>
   <p>2024.10 - Present</p>
 </div>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Advanced Engineering Informatics</h3>
+  <h3>Advanced Engineering Informatics</h3>
   <p>2024.6 - Present</p>
 </div>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Automation in Construction</h3>
+  <h3>Automation in Construction</h3>
   <p>2023.8 - Present</p>
 </div>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Journal of the Korea Institute of Ecological Architecture and Environment</h3>
+  <h3>Journal of the Korea Institute of Ecological Architecture and Environment</h3>
   <p>2020.2 - Present</p>
 </div>
 
 <div class="content-item">
-  <h3>Peer Reviewer, Journal of the Korea Institute of Building Construction</h3>
+  <h3>Journal of the Korea Institute of Building Construction</h3>
   <p>2020.4 - Present</p>
 </div>

@@ -210,7 +210,7 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
       <span class="tag tag-lang">EN</span>
     </div>
     <p><em>Advanced Engineering Informatics</em>, 2026</p>
-    <a href="Accepted" target="_blank">Accepted</a>
+    <a href="https://doi.org/10.1016/j.aei.2026.104199" target="_blank">Accepted</a>
   </div>
 
   <div class="pub-item" data-tags="AI,Education" data-type="Journal" data-lang="KO">
@@ -262,7 +262,7 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
   </div>
 
   <div class="pub-item" data-tags="BIM" data-type="Proceeding" data-lang="EN">
-    <h3>Filling in Missing Material Layer Information for Generating Wall and Slab Object Libraies from Drawing</h3>
+    <h3>Filling in Missing Material Layer Information for Generating Wall and Slab Object Libraries from Drawing</h3>
     <div class="pub-tags">
       <span class="tag tag-BIM">BIM</span>
       <span class="tag tag-type">Proceeding</span>
@@ -316,6 +316,29 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <a href="https://doi.org/10.5762/KAIS.2024.25.5.527" target="_blank">DOI: 10.5762/KAIS.2024.25.5.527</a>
   </div>
 
+  <div class="pub-item" data-tags="Building,Information" data-type="Journal" data-lang="KO">
+    <h3>Analysis of Regional Differences in Evaluation Criteria for Selecting Architectural Assets</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Building">Building</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Journal</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Journal of the Korea Academia-Industrial Cooperation Society</em>, 2024</p>
+    <a href="https://doi.org/10.5762/KAIS.2024.25.6.239" target="_blank">DOI: 10.5762/KAIS.2024.25.6.239</a>
+  </div>
+
+  <div class="pub-item" data-tags="AI,LLM" data-type="Journal" data-lang="KO">
+    <h3>Development of an Explainable Dataset Using Large Multimodel Models for AI-Enhanced Excavation Support System Validation</h3>
+    <div class="pub-tags">
+      <span class="tag tag-AI">AI</span>
+      <span class="tag tag-LLM">LLM</span>
+      <span class="tag tag-type">Journal</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Journal of the Architectural Institute of Korea</em>, 2024</p>
+  </div>
+
   <div class="pub-item" data-tags="Blockchain" data-type="Proceeding" data-lang="EN">
     <h3>Enhancing User-Participatory Processes in Road Pavement Defect Management through Blockchain Integration</h3>
     <div class="pub-tags">
@@ -326,6 +349,62 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <p><em>ASCE International Conference on Computing in Civil Engineering, July 28-31 2024 Pittsburgh, Pennsylvania, US</em>, 2024</p>
   </div>
 
+  <div class="pub-item" data-tags="BIM,LLM" data-type="Proceeding" data-lang="KO">
+    <h3>Prompt Design for BIM Model Design Compliance Checking Based on a Large Language Model</h3>
+    <div class="pub-tags">
+      <span class="tag tag-BIM">BIM</span>
+      <span class="tag tag-LLM">LLM</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2024</p>
+  </div>
+
+  <div class="pub-item" data-tags="Automation,AI" data-type="Proceeding" data-lang="KO">
+    <h3>Recommendation Process for Excavation Support System by Using Public Open Data</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Automation">Automation</span>
+      <span class="tag tag-AI">AI</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2024</p>
+  </div>
+
+  <div class="pub-item" data-tags="Plant,LMM,AI" data-type="Proceeding" data-lang="KO">
+    <h3>A Comparative Analysis of OCR Algorithms and Multimodal LLMs for Recognizing Damaged Information on Plant Equipment Nameplates</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Plant">Plant</span>
+      <span class="tag tag-LMM">LMM</span>
+      <span class="tag tag-AI">AI</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2024</p>
+  </div>
+
+  <div class="pub-item" data-tags="Plant,LMM,Automation" data-type="Proceeding" data-lang="KO">
+    <h3>Automated Piping and Instrumentation Diagram Logical Connection Checker Using a Large Multimodal Model</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Plant">Plant</span>
+      <span class="tag tag-LMM">LMM</span>
+      <span class="tag tag-Automation">Automation</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2024</p>
+  </div>
+
+  <div class="pub-item" data-tags="Bridge" data-type="Proceeding" data-lang="KO">
+    <h3>Impact of Component-Specific Weightings on the Bridge Condition Inspection</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Bridge">Bridge</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>The Korea Institute of Building Construction</em>, 2024</p>
+  </div>
+
   <div class="pub-item" data-tags="Road" data-type="Proceeding" data-lang="EN">
     <h3>Evaluating the Economic Impact of Preventive Treatment Strategies for Municipal Highways</h3>
     <div class="pub-tags">
@@ -334,6 +413,85 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
       <span class="tag tag-lang">EN</span>
     </div>
     <p><em>ASCE International Conference on Computing in Civil Engineering 2023 June 25–28, 2023, Corvallis, Oregon, US</em>, 2023</p>
+  </div>
+
+  <div class="pub-item" data-tags="Safety,LLM,AI" data-type="Proceeding" data-lang="KO">
+    <h3>Requirement Analysis for Building a Natural Language Processing-Based Knowledge Graph for Personalized Construction Safety Training</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Safety">Safety</span>
+      <span class="tag tag-LLM">LLM</span>
+      <span class="tag tag-AI">AI</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2023</p>
+  </div>
+
+  <div class="pub-item" data-tags="Safety,LLM,Education" data-type="Proceeding" data-lang="KO">
+    <h3>Data Building Strategies to Generate Interactive Construction Safety Education Materials using Large Language Model</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Safety">Safety</span>
+      <span class="tag tag-LLM">LLM</span>
+      <span class="tag tag-Education">Education</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2023</p>
+  </div>
+
+  <div class="pub-item" data-tags="Road,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Analysis of the Scale of External Funding for Proactive Maintenance of Road Infrastructure</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Road">Road</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>KSCE Journal of Civil Engineering</em>, 2023</p>
+  </div>
+
+  <div class="pub-item" data-tags="BIM,Blockchain" data-type="Proceeding" data-lang="KO">
+    <h3>A Research Trends in BIM based Blockchain</h3>
+    <div class="pub-tags">
+      <span class="tag tag-BIM">BIM</span>
+      <span class="tag tag-Blockchain">Blockchain</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2022</p>
+  </div>
+
+  <div class="pub-item" data-tags="Road,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Approaches for Cost Optimization in Preventive Infrastructure Maintenance Management</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Road">Road</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2022</p>
+  </div>
+
+  <div class="pub-item" data-tags="Building,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Approaches to ESG factors in Construction Industry for Administrative Use by Municipality</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Building">Building</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korean Institute of Ecological Architecture and Environment</em>, 2022</p>
+  </div>
+
+  <div class="pub-item" data-tags="Road,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Research Trends in Priority Decision Making Model for Urban Infrastructure Integrated Maintenance</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Road">Road</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>KSCE Journal of Civil Engineering</em>, 2022</p>
   </div>
 
   <div class="pub-item" data-tags="BIM" data-type="Journal" data-lang="EN">
@@ -370,10 +528,10 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002084396" target="_blank">DOI: 10.5659/JAIK_SC.2016.32.2.51</a>
   </div>
 
-  <div class="pub-item" data-tags="ACC" data-type="Proceeding" data-lang="EN">
+  <div class="pub-item" data-tags="Building" data-type="Proceeding" data-lang="EN">
     <h3>Can Experience Overcome the Cognitive Challenges in Drawing Based Design Review? — Design Review Experiments</h3>
     <div class="pub-tags">
-      <span class="tag tag-ACC">ACC</span>
+      <span class="tag tag-Building">Building</span>
       <span class="tag tag-type">Proceeding</span>
       <span class="tag tag-lang">EN</span>
     </div>
@@ -391,6 +549,61 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     <a href="https://doi.org/10.1016/j.aei.2015.05.006" target="_blank">DOI: 10.1016/j.aei.2015.05.006</a>
   </div>
 
+  <div class="pub-item" data-tags="BIM,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Derivation of BIM Project Properties Through an Analysis of On-Line BIM Project Cases</h3>
+    <div class="pub-tags">
+      <span class="tag tag-BIM">BIM</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Proceedings of the Korean Institute of Building Construction Conference</em>, 2015</p>
+  </div>
+
+  <div class="pub-item" data-tags="BIM,Information" data-type="Proceeding" data-lang="KO">
+    <h3>An Analysis of Operational Factors for Successful BIM Collaboration according to Organization Size</h3>
+    <div class="pub-tags">
+      <span class="tag tag-BIM">BIM</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Journal of the Architectural Institute of Korea</em>, 2015</p>
+  </div>
+
+  <div class="pub-item" data-tags="Building,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Innovation Resistance Model Driven Determinants of FMS Adoption in Higher Education Facilities</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Building">Building</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Journal of the Architectural Institute of Korea</em>, 2015</p>
+  </div>
+
+  <div class="pub-item" data-tags="Building,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Patterns in User Requests for Facility Management Services in Higher Education Facilities</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Building">Building</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korean Institute of Building Construction</em>, 2015</p>
+  </div>
+
+  <div class="pub-item" data-tags="Building,Information" data-type="Proceeding" data-lang="KO">
+    <h3>Preliminary Study on the Reliability-Centered Maintenance of University Facilities</h3>
+    <div class="pub-tags">
+      <span class="tag tag-Building">Building</span>
+      <span class="tag tag-Information">Information</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2014</p>
+  </div>
+
   <div class="pub-item" data-tags="BIM" data-type="Journal" data-lang="KO">
     <h3>A Study on the Development Direction and Priority of the BIM-Based Hospital Design Validation Technology</h3>
     <div class="pub-tags">
@@ -400,6 +613,17 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
     </div>
     <p><em>Journal of the Architectural Institute of Korea Structure & Construction</em>, 2013</p>
     <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001783229" target="_blank">UCI : G704-A00167.2013.29.06.031</a>
+  </div>
+
+  <div class="pub-item" data-tags="BIM,Ontology" data-type="Proceeding" data-lang="KO">
+    <h3>A Study on Developing OWL/SWRL-based Rule-set for Rule-based BIM Checking System</h3>
+    <div class="pub-tags">
+      <span class="tag tag-BIM">BIM</span>
+      <span class="tag tag-Ontology">Ontology</span>
+      <span class="tag tag-type">Proceeding</span>
+      <span class="tag tag-lang">KO</span>
+    </div>
+    <p><em>Korea Institute of Construction Engineering and Management</em>, 2012</p>
   </div>
 </div>
 

@@ -76,7 +76,7 @@ layout: default
 <div class="content-item">
   <h3>Ph.D. in Architecture and Architectural Engineering</h3>
   <p><strong>Institution:</strong> Yonsei University</p>
-  <p><strong>Period:</strong> 2012.3 - 2017.8 | <strong>GPA:</strong> 4.15/4.30</p>
+  <p><strong>Graduated:</strong> August 2017 | <strong>GPA:</strong> 4.15/4.30</p>
   <p><strong>Dissertation:</strong> Requirements Analysis for BIM: Competency of BIM Professionals, RFP-Based Design Compliance Checking, and Information Required for FM</p>
   <p><strong>Supervisor:</strong> Dr. Ghang Lee</p>
 </div>
@@ -84,7 +84,7 @@ layout: default
 <div class="content-item">
   <h3>M.S. in Architecture and Architectural Engineering</h3>
   <p><strong>Institution:</strong> Yonsei University</p>
-  <p><strong>Period:</strong> 2009.3 - 2012.3 | <strong>GPA:</strong> 3.87/4.30</p>
+  <p><strong>Graduated:</strong> February 2012 | <strong>GPA:</strong> 3.87/4.30</p>
   <p><strong>Dissertation:</strong> The Impact of Real Estate Information Disclosure System on the Sale Prices of Multi-Family Housing in Seoul</p>
   <p><strong>Supervisor:</strong> Dr. Ghang Lee</p>
 </div>
@@ -92,7 +92,7 @@ layout: default
 <div class="content-item">
   <h3>B.S. in Architecture and Architectural Engineering</h3>
   <p><strong>Institution:</strong> Yonsei University</p>
-  <p><strong>Period:</strong> 2002.3 - 2004.2 | <strong>GPA:</strong> 3.42/4.30</p>
+  <p><strong>Graduated:</strong> February 2004 | <strong>GPA:</strong> 3.42/4.30</p>
 </div>
 
 <h1 class="section-divider">Patents</h1>

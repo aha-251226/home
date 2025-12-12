@@ -66,7 +66,7 @@ layout: default
 </div>
 
 <div class="content-item">
-  <h3>Building Construction</h3>
+  <h3>Building Construction Technology and Management</h3>
   <p><em>Ewha Woman's University</em></p>
   <p>2025.9 - 2025.12 | Undergraduate | 3.0 hours per week</p>
 </div>

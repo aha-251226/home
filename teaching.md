@@ -40,16 +40,16 @@ layout: default
 
 .content-item h3 {
   margin: 0 0 0.75rem 0;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #24292e;
   line-height: 1.4;
 }
 
 .content-item p {
-  margin: 0.5rem 0;
-  line-height: 1.7;
-  font-size: 0.95rem;
+  margin: 0.4rem 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
   color: #586069;
 }
 
@@ -65,51 +65,46 @@ layout: default
   <a href="./education.html" class="tab-link">Education</a>
 </div>
 
+# Teaching Experience
+
 <div class="content-item">
   <h3>Building Construction</h3>
-  <p><strong>Institution:</strong> Ewha Woman's University</p>
-  <p><strong>Period:</strong> 2025.9 - 2025.12 | <strong>Level:</strong> Undergraduate</p>
-  <p><strong>Hours:</strong> 3.0 hours per week</p>
+  <p><em>Ewha Woman's University</em></p>
+  <p>2025.9 - 2025.12 | Undergraduate | 3.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>BIM</h3>
-  <p><strong>Institution:</strong> Hanyang University, Department of Civil and Environmental Engineering</p>
-  <p><strong>Period:</strong> 2022.9 - 2022.12, 2021.2 - 2022.12 | <strong>Level:</strong> Graduate</p>
-  <p><strong>Hours:</strong> 4.0 hours per week</p>
+  <p><em>Hanyang University, Department of Civil and Environmental Engineering</em></p>
+  <p>2022.9 - 2022.12, 2021.2 - 2022.12 | Graduate | 4.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>Gifted and Talented Education Center</h3>
-  <p><strong>Institution:</strong> Korea University</p>
-  <p><strong>Period:</strong> 2021.2 - 2022.12</p>
-  <p><strong>Hours:</strong> 8.0 hours per week</p>
+  <p><em>Korea University</em></p>
+  <p>2021.2 - 2022.12 | 8.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>Scheduling Management</h3>
-  <p><strong>Institution:</strong> HanKyung National University</p>
-  <p><strong>Period:</strong> 2019.9 - 2020.2 | <strong>Level:</strong> Undergraduate</p>
-  <p><strong>Hours:</strong> 3.0 hours per week</p>
+  <p><em>HanKyung National University</em></p>
+  <p>2019.9 - 2020.2 | Undergraduate | 3.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>Building Construction</h3>
-  <p><strong>Institution:</strong> HanKyung National University</p>
-  <p><strong>Period:</strong> 2019.9 - 2020.2 | <strong>Level:</strong> Undergraduate</p>
-  <p><strong>Hours:</strong> 3.0 hours per week</p>
+  <p><em>HanKyung National University</em></p>
+  <p>2019.9 - 2020.2 | Undergraduate | 3.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>Fundamental of Construction Technology</h3>
-  <p><strong>Institution:</strong> Yonsei University</p>
-  <p><strong>Period:</strong> 2018.3 - 2020.8 | <strong>Level:</strong> Undergraduate</p>
-  <p><strong>Hours:</strong> 3.0 hours per week</p>
+  <p><em>Yonsei University</em></p>
+  <p>2018.3 - 2020.8 | Undergraduate | 3.0 hours per week</p>
 </div>
 
 <div class="content-item">
   <h3>Computer Graphics</h3>
-  <p><strong>Institution:</strong> Korea National University of Transportation</p>
-  <p><strong>Period:</strong> 2018.8 - 2022.6 | <strong>Level:</strong> Undergraduate</p>
-  <p><strong>Hours:</strong> 4.0 hours per week</p>
+  <p><em>Korea National University of Transportation</em></p>
+  <p>2018.8 - 2022.6 | Undergraduate | 4.0 hours per week</p>
 </div>

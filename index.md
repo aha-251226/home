@@ -29,44 +29,20 @@ layout: default
   border-bottom-color: #0366d6;
 }
 
-/* 필터 섹션 - 크기 축소 */
+/* 필터 섹션 - 단순화 */
 .filter-section {
-  margin: 15px 0;
-  padding: 12px 15px;
+  margin: 15px 0 30px 0;
+  padding: 10px 15px;
   background: #f6f8fa;
   border-radius: 6px;
-  font-size: 0.85em;
-}
-
-/* 필터 그룹 - 간격 축소 */
-.filter-group {
-  margin: 8px 0;
-  padding: 6px 0;
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.filter-group:last-child {
-  border-bottom: none;
-}
-
-.filter-group:first-child {
-  border-bottom: 2px solid #d1d5da;
-  padding-bottom: 10px;
-  margin-bottom: 12px;
-}
-
-.filter-group-title {
-  font-size: 0.75em;
-  font-weight: 600;
-  color: #24292e;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
 }
 
 .tag-btn {
-  padding: 3px 9px;
-  margin: 2px;
+  padding: 4px 10px;
   border: 1px solid #d1d5da;
   background: white;
   cursor: pointer;
@@ -162,17 +138,13 @@ layout: default
 }
 
 @media (max-width: 768px) {
+  .filter-section {
+    padding: 8px 10px;
+  }
+  
   .tag-btn {
     font-size: 0.75em;
     padding: 3px 8px;
-  }
-  
-  .filter-group-title {
-    font-size: 0.7em;
-  }
-  
-  .filter-section {
-    padding: 10px;
   }
 }
 </style>
@@ -189,56 +161,28 @@ Research interests: BIM, LLM/LMM, Construction Automation, and AI applications i
 # Publications
 
 <div class="filter-section">
-  <!-- All 버튼 -->
-  <div class="filter-group">
-    <button class="tag-btn active" data-tag="all" data-group="all">All</button>
-  </div>
-
-  <!-- Target 필터 그룹 -->
-  <div class="filter-group">
-    <div class="filter-group-title">Target</div>
-    <button class="tag-btn" data-tag="Building" data-group="target">Building</button>
-    <button class="tag-btn" data-tag="Road" data-group="target">Road</button>
-    <button class="tag-btn" data-tag="Bridge" data-group="target">Bridge</button>
-    <button class="tag-btn" data-tag="Plant" data-group="target">Plant</button>
-  </div>
-
-  <!-- Purpose 필터 그룹 -->
-  <div class="filter-group">
-    <div class="filter-group-title">Purpose</div>
-    <button class="tag-btn" data-tag="Fire" data-group="purpose">Fire Safety</button>
-    <button class="tag-btn" data-tag="Safety" data-group="purpose">Safety</button>
-    <button class="tag-btn" data-tag="Automation" data-group="purpose">Automation</button>
-    <button class="tag-btn" data-tag="Information" data-group="purpose">Information</button>
-    <button class="tag-btn" data-tag="Education" data-group="purpose">Education</button>
-  </div>
-
-  <!-- Method 필터 그룹 -->
-  <div class="filter-group">
-    <div class="filter-group-title">Method</div>
-    <button class="tag-btn" data-tag="BIM" data-group="method">BIM</button>
-    <button class="tag-btn" data-tag="SNA" data-group="method">SNA</button>
-    <button class="tag-btn" data-tag="AI" data-group="method">AI</button>
-    <button class="tag-btn" data-tag="LLM" data-group="method">LLM</button>
-    <button class="tag-btn" data-tag="LMM" data-group="method">LMM</button>
-    <button class="tag-btn" data-tag="Simulation" data-group="method">Simulation</button>
-    <button class="tag-btn" data-tag="Ontology" data-group="method">Ontology</button>
-    <button class="tag-btn" data-tag="Blockchain" data-group="method">Blockchain</button>
-  </div>
-
-  <!-- Type 필터 그룹 -->
-  <div class="filter-group">
-    <div class="filter-group-title">Type</div>
-    <button class="tag-btn" data-tag="Journal" data-group="type">Journal</button>
-    <button class="tag-btn" data-tag="Proceeding" data-group="type">Proceeding</button>
-  </div>
-
-  <!-- Language 필터 그룹 -->
-  <div class="filter-group">
-    <div class="filter-group-title">Language</div>
-    <button class="tag-btn" data-tag="EN" data-group="language">EN</button>
-    <button class="tag-btn" data-tag="KO" data-group="language">KO</button>
-  </div>
+  <button class="tag-btn active" data-tag="all" data-group="all">All</button>
+  <button class="tag-btn" data-tag="Building" data-group="target">Building</button>
+  <button class="tag-btn" data-tag="Road" data-group="target">Road</button>
+  <button class="tag-btn" data-tag="Bridge" data-group="target">Bridge</button>
+  <button class="tag-btn" data-tag="Plant" data-group="target">Plant</button>
+  <button class="tag-btn" data-tag="Fire" data-group="purpose">Fire Safety</button>
+  <button class="tag-btn" data-tag="Safety" data-group="purpose">Safety</button>
+  <button class="tag-btn" data-tag="Automation" data-group="purpose">Automation</button>
+  <button class="tag-btn" data-tag="Information" data-group="purpose">Information</button>
+  <button class="tag-btn" data-tag="Education" data-group="purpose">Education</button>
+  <button class="tag-btn" data-tag="BIM" data-group="method">BIM</button>
+  <button class="tag-btn" data-tag="SNA" data-group="method">SNA</button>
+  <button class="tag-btn" data-tag="AI" data-group="method">AI</button>
+  <button class="tag-btn" data-tag="LLM" data-group="method">LLM</button>
+  <button class="tag-btn" data-tag="LMM" data-group="method">LMM</button>
+  <button class="tag-btn" data-tag="Simulation" data-group="method">Simulation</button>
+  <button class="tag-btn" data-tag="Ontology" data-group="method">Ontology</button>
+  <button class="tag-btn" data-tag="Blockchain" data-group="method">Blockchain</button>
+  <button class="tag-btn" data-tag="Journal" data-group="type">Journal</button>
+  <button class="tag-btn" data-tag="Proceeding" data-group="type">Proceeding</button>
+  <button class="tag-btn" data-tag="EN" data-group="language">EN</button>
+  <button class="tag-btn" data-tag="KO" data-group="language">KO</button>
 </div>
 
 <div class="publications">
@@ -470,7 +414,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.tag-btn');
   const items = document.querySelectorAll('.pub-item');
   
-  // 그룹별 활성 필터 관리
   const activeFilters = {
     all: true,
     target: new Set(),
@@ -485,7 +428,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const tag = this.dataset.tag;
       const group = this.dataset.group;
       
-      // All 버튼 클릭 시
       if (group === 'all') {
         buttons.forEach(b => b.classList.remove('active'));
         this.classList.add('active');
@@ -497,11 +439,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
       }
       
-      // All 비활성화
       activeFilters.all = false;
       document.querySelector('[data-group="all"]').classList.remove('active');
       
-      // 현재 버튼 토글
       if (this.classList.contains('active')) {
         this.classList.remove('active');
         activeFilters[group].delete(tag);
@@ -510,7 +450,6 @@ document.addEventListener('DOMContentLoaded', function() {
         activeFilters[group].add(tag);
       }
       
-      // 모든 필터가 비어있으면 All 활성화
       const hasActiveFilters = Object.keys(activeFilters).some(key => 
         key !== 'all' && activeFilters[key].size > 0
       );
@@ -535,7 +474,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const itemType = item.dataset.type;
       const itemLang = item.dataset.lang;
       
-      // 각 그룹별 매칭 검사 (그룹 내 OR, 그룹 간 AND)
       const matchTarget = activeFilters.target.size === 0 || 
         [...activeFilters.target].some(t => itemTags.includes(t));
       
@@ -551,7 +489,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const matchLanguage = activeFilters.language.size === 0 || 
         activeFilters.language.has(itemLang);
       
-      // 모든 조건 만족 시 표시
       if (matchTarget && matchPurpose && matchMethod && matchType && matchLanguage) {
         item.style.display = 'block';
       } else {

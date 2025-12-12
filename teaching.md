@@ -65,8 +65,6 @@ layout: default
   <a href="./education.html" class="tab-link">Education</a>
 </div>
 
-# Teaching Experience
-
 <div class="content-item">
   <h3>Building Construction</h3>
   <p><em>Ewha Woman's University</em></p>
